@@ -1,0 +1,196 @@
+
+
+/* ===================================TYPOGRAPHY========================================*/
+
+@font-face {
+    font-family: Proxima;
+    src: url("../fonts/Proxima Nova Alt Light.otf");
+    font-weight:400;
+}
+
+@font-face {
+    font-family: Proxima-italic;
+    src: url("../fonts/Proxima Nova Alt Light Italic.otf");
+    font-weight:400;
+}
+
+@font-face {
+    font-family: Proxima-thin;
+    src: url("../fonts/Proxima Nova Alt Thin.otf");
+    font-weight:400;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Proxima;
+}
+
+.copyright {
+    font-size: 1em; 
+    font-family: Proxima-thin; 
+    line-height: 1.2em;
+    position: fixed;
+    bottom: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.copyright a {
+    color: #e01e26;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+    background-color:  transparent;
+}
+
+.menu2 {
+    margin-top: 15%;
+    font-size: 1.4em;
+    list-style-type: none;
+    line-height: 1.2em;
+    font-family: Proxima-thin;
+}
+
+h1 {
+    font-family: Proxima-italic;
+    font-size: 2.5em;
+    color: #000033;
+}
+
+h2 {
+    font-family: Proxima-italic;
+    font-size: 2em;
+    color: #000033;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+ul {
+    text-align: center;
+}
+
+.menu p {
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+a {
+    color: #000033;
+}
+
+a:hover {
+    color: #e01e26;
+    background-color: white;
+}
+
+.meer {
+    font-weight: 700;
+    color: #e01e26;
+}
+
+a.meer:hover{
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.date {
+    font-weight: 700;
+    color: #787878;
+    font-size: 0.9em;
+    border-bottom: 1px dotted #000033;
+}
+
+.newsletter-text {
+    float: left;
+    padding-left: 5%;
+    font-size: 2em;
+    height: 80px;
+    line-height: 80px;
+    color: #e01e26;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: white;
+}
+
+/* ===================================CONTENT========================================*/
+
+
+.left-container {
+    bottom: 0;
+    border: 1px solid red;
+    padding-top: 50px;
+}
+
+.logo {
+    margin: 0 auto;
+    padding-bottom: 22%;
+}
+
+.content {
+    background-color: white;
+    padding: 0;
+    height: 100%;
+}
+
+.photo {
+    position: relative;
+    padding: 0;
+}
+
+.img_label {
+    margin: 0 auto;
+    padding: 10px 0px;
+    position: relative;
+    top: -100px;
+}
+
+.newsletter {
+    padding-left: 8%;
+}
+
+.content-left {
+    padding-left: 8%;
+}
+
+.content-right {
+    padding-left: 8%;
+    padding-right: 5%;
+}
+
+/*===========================================================TOOGLE==============================================================*/
+.navbar-header {
+    background-color: #000033;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #e01e26;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #e01e26;
+    color: white;
+}
+.navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: #00c8ff;
+}
